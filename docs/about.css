@@ -295,8 +295,127 @@ a:hover {
     background-position: 0% 50%;
   }
 }
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+  }
 
+  #mbar {
+    display: block;
+    text-align: center;
+    background-color: black;
+    padding: 1rem 0;
+  }
 
+  .search-container {
+    display: flex;
+    margin: 0 auto 10px auto;
+    width: 90%;
+  }
 
+  #hlo {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
 
+  .hi {
+    display: block;
+    margin: 5px 0;
+    font-size: 18px;
+  }
 
+  #A10 {
+    display: block;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0 0 10px;
+  }
+
+  .A3 {
+    width: 40px;
+    height: 40px;
+  }
+
+  .ab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 60%;
+  }
+
+  #ab {
+    width: 140px;
+    margin-bottom: 15px;
+  }
+
+  .ab1 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+
+  .vinayak {
+    font-size: 24px;
+    color: magenta;
+  }
+
+  .edu, .gradu {
+    margin-top: 100px;
+    margin-left: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+
+  #book, #hat {
+    width: 50px;
+    margin-bottom: -80px;
+    align-self: center;
+    margin-left: -400px;
+    margin-right: 40px;
+  }
+
+  #h2, #h3 {
+    margin-left: -400px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+    margin-left: 10px;
+  }
+
+  .text, dl {
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  dl {
+    font-size: 20px;
+  }
+
+  dd {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-left: 10px;
+  }
+
+  #Amrita {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  #am, #am1 {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  #am a {
+    color: white;
+    text-decoration: underline;
+  }
+}
