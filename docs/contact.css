@@ -294,6 +294,89 @@ input[type="search"]::placeholder{
     0% { background-position: 200% 0; }
     100% { background-position: -200% 0; }
 }
+@media (max-width: 600px) {
+  #mbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .search-container {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #hlo {
+    width: 70%;
+    margin-right: 0;
+  }
+
+  .hi {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  .A2 {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 40px;
+  }
+  #A10 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+    width: 80%;
+    height: 100px;
+    gap: 10px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+  }
+
+  .A3 {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    margin-bottom: 50px;
+  }
+
+  .reg {
+    
+    width: 90%;
+    margin-top: 150px;
+    font-size: 16px;
+    text-align: center;
+  }
+  #regards{
+    margin-top: 200px;
+  }
+
+  .feedback-box {
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    margin-left: 0 !important;
+  }
+
+  .contact-box {
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 0;
+  }
+
+  .tt {
+    margin-left: -160px;
+  }
+}
+
 
   
   
